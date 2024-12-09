@@ -109,7 +109,7 @@ main {
 
 .links button {
     border: 2px solid #cccccc;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     margin: 10px 0;
     border-radius: 3px;
@@ -118,7 +118,15 @@ main {
     font-size: 16px;
 }
 
-.links a ::ho
+/* on hover button changes colour & animates on click */
+button:hover {
+    background-color: #354f52;
+}
+
+button:active {
+    box-shadow: 0 5px #cccccc;
+    transform: translateY(4px);
+}
 
 /* CARP */
 
@@ -129,7 +137,6 @@ main {
 .carp-text-container {
     margin: 20px 20px 20px 0;
     padding: 20px;
-    background-color: azure;
 }
 
 
