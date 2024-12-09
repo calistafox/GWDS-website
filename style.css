@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Styling */
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+}
+
+.container-nav{
+    /* makes container height same as display height */
+    height: 100vh;
+    /* makes items flex items */
+    display: flex;
+    /* aligns vertically */
+    flex-direction: column;
+    /* aligns items in the center */
+    justify-content: center;
+}
+
+.container-nav a {
+    /* removes underline from links */
+    text-decoration: none; 
+    /* spaces out text vertically */
+    line-height: 300%;
+    padding: 10px;
+}
+
+/* whole page styling */
+
+main {
+    /* moves content over so not convered by nav */
+    margin-left: 200px;
+}
+
+.content {
+    /* adds white spacing around content containers */
+    padding: 20px 40px;
+}
+
+.container {
+    /* addds spacing at bottom of containers */
+    margin-bottom: 40px;
+/* padding inside container */
+    padding: 40px;
+    background-color: aquamarine;
+
+    /* sets min height of container to 80% view height */
+    min-height: 80vh;
+}
+
+
