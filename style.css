@@ -71,8 +71,51 @@ main {
     flex-direction: column;
 }
 
+/* CARP */
+
+.carp-card {
+    display: flex;
+}
+
+.carp-text-container {
+    margin: 20px 20px 20px 0;
+    padding: 20px;
+    background-color: azure;
+}
+
+
+.carp-img-container img{
+    margin-left: auto;
+    max-height: 70vh;
+}
+
+
+/* .slider-container{
+    margin: 10px;
+    padding: 20px;
+    background-color: black;
+}
+
+.slide1 {
+    display: flex;
+    width: 100%;
+    background-color: blueviolet;
+    padding: 10px;
+}
+.slide-text {
+    padding: 10px;
+}
+
+.slide1 img {
+    height: 80vh;
+    margin-left: auto;
+} */
+
+
+
 
 /* Typography */
+
 .typo-flex {
     /* display flex so cards can align next to each other */
     display: flex;
