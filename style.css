@@ -56,4 +56,44 @@ main {
     min-height: 80vh;
 }
 
+/* Coding Worksheets */
 
+.worksheets-flex {
+    display: flex;
+}
+
+.worksheets-flex p {
+    width: 50%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Typography */
+.typo-flex {
+    /* display flex so cards can align next to each other */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.typo-card {
+    max-width: 50%;
+}
+
+.typo-card-content {
+    margin: 10px;
+}
+
+.typo-img-container {
+    padding: 10px 10px 10px 0px;
+    display: flex;
+}
+
+.typo-card-content img {
+    max-width: 100%;
+    justify-content: center;
+    display: flex;
+}
