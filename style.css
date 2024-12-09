@@ -3,12 +3,42 @@
     padding: 0;
 }
 
+body {
+    font-family: "Raleway", Calibri,'Trebuchet MS', sans-serif;
+    font-size: 14px;
+
+    background-color: #354f52;
+    color: #cccccc;
+    letter-spacing: +0.5px;
+}
+
+h1 {
+    margin-bottom: 5%;
+    font-size: 44px;
+}
+
+h2 {
+    margin: 20px 0;
+    font-size: 34px;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+a {
+    font-weight: 600;
+    color: #cccccc;
+    /* removes underline from links */
+    text-decoration: none; 
+}
+
 /* Nav Styling */
 
 header{
     margin: 0;
     padding: 0;
-    background-color: lightblue;
+    background-color: #1a2729;
     width: 200px;
     position: fixed;
     height: 100%;
@@ -23,14 +53,16 @@ header{
     flex-direction: column;
     /* aligns items in the center */
     justify-content: center;
+
 }
 
 .container-nav a {
-    /* removes underline from links */
-    text-decoration: none; 
     /* spaces out text vertically */
     line-height: 300%;
     padding: 10px;
+    color: #cccccc;
+    text-transform: uppercase;
+
 }
 
 /* whole page styling */
@@ -50,26 +82,43 @@ main {
     margin-bottom: 40px;
 /* padding inside container */
     padding: 40px;
-    background-color: aquamarine;
+    background-color: #1a2729;
 
     /* sets min height of container to 80% view height */
-    min-height: 80vh;
+    /* min-height: 80vh; */
 }
 
 /* Coding Worksheets */
 
 .worksheets-flex {
+    /* display flex to make content align vertically */
     display: flex;
-}
-
-.worksheets-flex p {
-    width: 50%;
 }
 
 .links {
     display: flex;
+    /* display links vertically */
     flex-direction: column;
+    /* aligns to right */
+    margin-right: auto;
+    /* distributes items vertically equally */
+    justify-content: space-around;
+    min-width: 120px;
+    margin-left: 20px;
 }
+
+.links button {
+    border: 2px solid #cccccc;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 3px;
+    background-color: #1a2729;
+    color: #cccccc;
+    font-size: 16px;
+}
+
+.links a ::ho
 
 /* CARP */
 
