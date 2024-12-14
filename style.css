@@ -14,16 +14,17 @@ body {
 
 h1 {
     margin-bottom: 5%;
-    font-size: 44px;
+    font-size: 3em;
 }
 
 h2 {
     margin: 20px 0;
-    font-size: 34px;
+    font-size: 2em;
 }
 
 h3 {
     margin: 10px 0;
+    font-size: 1em;
 }
 
 a {
@@ -32,6 +33,7 @@ a {
     /* removes underline from links */
     text-decoration: none; 
 }
+
 
 /* Nav Styling */
 
@@ -62,7 +64,11 @@ header{
     padding: 10px;
     color: #cccccc;
     text-transform: uppercase;
+}
 
+/* on hover changes background colour */
+a:hover {
+    color: #354f52;
 }
 
 /* whole page styling */
@@ -165,8 +171,9 @@ button:active {
     max-width: 50%;
 }
 
-.typo-card-content {
-    margin: 10px;
+.typo-card-content p {
+    padding-right: 5px;
+    padding-bottom: 10px;
 }
 
 .typo-img-container {
@@ -178,4 +185,49 @@ button:active {
     max-width: 100%;
     justify-content: center;
     display: flex;
+}
+
+.ref-img{
+    max-height: 300px
+}
+
+footer {
+    margin-left: 200px;
+    
+}
+
+footer p {
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    background-color: #1a2729;
+}
+
+/* changes layout to column when screen is less than 1000px */
+@media screen and (max-width: 1000px) {
+    .carp-card {
+        flex-direction: column;
+    }
+
+    .left {
+        margin: 0 auto;
+    }
+
+    .right {
+        margin: 0 auto;
+        
+    }
+
+    .carp-rev {
+        flex-direction: column-reverse;
+    }
+
+    .typo-flex {
+        flex-direction: column;
+        
+    }
+    .typo-card {
+        max-width: 100%;
+    }
+
 }
