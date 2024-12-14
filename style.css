@@ -191,6 +191,20 @@ button:active {
     max-height: 300px
 }
 
+/* Essay */
+.essay-holder {
+    /* display: flex; */
+}
+.wireframe-holder {
+    max-width: 1000px;
+    padding: 20px;
+}
+.wireframe-holder img {
+    width: 100%;
+}
+
+/* Footer */
+
 footer {
     margin-left: 200px;
     
